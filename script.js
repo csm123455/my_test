@@ -20,25 +20,25 @@ const projects = [
     title: "포트폴리오 웹사이트",
     description: "HTML, CSS, JS 기반 포트폴리오",
     image: "images/project1.jpg",
-    zip: "downloads/project1.zip"
+    zip: "download/project1.zip"
   },
   {
     title: "리액트 클론 코딩",
     description: "React 기반 클론 코딩 프로젝트",
     image: "images/project2.jpg",
-    zip: "downloads/project2.zip"
+    zip: "download/project2.zip"
   },
   {
     title: "AWS CloudFormation",
     description: "AWS CloudFormation 템플릿",
     image: "images/project3.jpg",
-    zip: "downloads/project3.zip"
+    zip: "download/project3.zip"
   },
   {
     title: "관리자 대시보드",
     description: "차트와 테이블이 포함된 관리자 화면",
     image: "images/project4.jpg",
-    zip: "downloads/project4.zip"
+    zip: "download/project4.zip"
   }
 ];
 
