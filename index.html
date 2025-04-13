@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>조성민 포트폴리오</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- 상단 메뉴 -->
+  <header>
+    <div class="header-title">조성민 포트폴리오</div>
+    <nav>
+      <ul>
+        <li><a href="#home">홈</a></li>
+        <li><a href="#about">소개</a></li>
+        <li><a href="#projects">프로젝트</a></li>
+        <li><a href="#contact">연락처</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- 홈 -->
+  <section id="home" class="section">
+    <h1>안녕하세요! 👋<br>클라우드 엔지니어 조성민입니다.</h1>
+  </section>
+
+  <!-- 소개 -->
+  <section id="about" class="section about-section">
+    <div class="about-image">
+      <img src="images/me.jpg" alt="내 사진" />
+    </div>
+    <div class="about-text">
+      <h2>소개</h2>
+      <p>저는 클라우드 엔지니어 조성민입니다.<br>
+        HTML, CSS, JavaScript 기반의 인터페이스 개발에 관심이 많고,<br>
+        네트워크, 서버관리를 담당하기 위해 노력하고있습니다.
+      </p>
+    </div>
+  </section>
+
+  <!-- 프로젝트 -->
+  <section id="projects" class="section">
+    <h2>프로젝트</h2>
+    <div id="project-list" class="project-container"></div>
+    <div class="pagination">
+      <button id="prev-btn">이전</button>
+      <span id="page-indicator">1 / 1</span>
+      <button id="next-btn">다음</button>
+    </div>
+  </section>
+
+  <!-- 연락처 -->
+  <section id="contact" class="section contact-section">
+    <div class="contact-info">
+      <h2>연락처</h2>
+      <p><strong>이메일:</strong> csm123455@gmail.com</p>
+      <p><strong>GitHub:</strong> <a href="https://github.com/csm123455" target="_blank">github.com/yourid</a></p>
+      <p><strong>핸드폰:</strong> 010-2495-xxxx</p>
+      <p><strong>주소:</strong> 서울특별시 도봉구</p>
+    </div>
+
+    <form id="contact-form">
+      <h2>이메일 보내기</h2>
+      <input type="text" name="user_name" placeholder="이름" required />
+      <input type="email" name="user_email" placeholder="이메일" required />
+      <textarea name="message" placeholder="메시지" required></textarea>
+      <button type="submit">보내기</button>
+    </form>
+  </section>
+
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
